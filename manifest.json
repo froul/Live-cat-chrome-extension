@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "icons/icon_19.png",
+         "38": "icons/icon_38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extName__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "contentScript.js" ],
+      "matches": [ "https://mediatools.cc/*", "https://*.mediatools.cc/*", "https://mediatools.rndnm.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg5QSfYWomz1rILAkVxlNPiCIx4lrkQQQs0R/Y/+wxsCpFeHW56PwsCljSTYDwXyYPRfvmWvIAUlCkF4/5zeMApkz99ugNCZAA6s0bmCrkjSfRaAjUyV370jMu38SE0QZISRa4rOVVq7cDM/4zGEegzfUoK2+08tt/S9dzj38A9rEtLJm18ghIyaP8oh68oLTFeL2R1DOL+i8aIDe0aRUli94WAn/WUTK05pXSIGcGnKU9+6JVNXQ+aYpikiRV6JZmFkCP2MVulLAJk/qLG+/ncpN6u+0uHd90e9UsAKFY14wKoT4S44SwBhzRRxmnJu79oupbj4TcOYI9ZhzSZ4GZwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "109",
+   "name": "__MSG_extName__",
+   "permissions": [ "webRequest", "tabs", "power", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.23.2"
+}
