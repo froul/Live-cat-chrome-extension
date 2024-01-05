@@ -2,7 +2,7 @@
 ***
 
 # Инструкция
-Скачайте [расширение]([https://www.google.com](https://github.com/froul/Live-cat-chrome-extension/raw/main/%D0%A1%D0%9A%D0%90%D0%A7%D0%90%D0%A2%D0%AC%20%D0%A0%D0%90%D0%A1%D0%A8%D0%98%D0%A0%D0%95%D0%9D%D0%98%D0%95.zip))
+Скачайте [расширение](https://github.com/froul/Live-cat-chrome-extension/raw/main/%D0%A1%D0%9A%D0%90%D0%A7%D0%90%D0%A2%D0%AC%20%D0%A0%D0%90%D0%A1%D0%A8%D0%98%D0%A0%D0%95%D0%9D%D0%98%D0%95.zip)
 # 1. 
 Скопируйте путь и вставьте в проводник:
 
