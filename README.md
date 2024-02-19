@@ -14,7 +14,6 @@
 
 # 2.
 Создайте тут папку:
-34ug9n394gujs
 ```
 cofmpiaddiioohphmmgjnbcpfoiknnkh
 ```
